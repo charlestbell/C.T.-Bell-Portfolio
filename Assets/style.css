@@ -1,0 +1,54 @@
+i {
+  font-size: 2rem;
+}
+button {
+  background-color: #505dd4 !important;
+}
+h3,
+h2 {
+  color: #505dd4 !important;
+}
+p,
+h5 {
+  color: #212757;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.portfolio1 {
+  width: 300px;
+}
+.spacer {
+  height: 500px;
+}
+
+.border-2 {
+  border: 3px solid !important;
+  border-color: #798bef !important;
+}
+
+.contentContainer {
+  background-color: #f0f2fe !important;
+  border-radius: 15px !important;
+}
+.social {
+  color: #f0f2fe !important;
+}
+.socialDiv {
+  display: inline-block;
+  background-color: #505dd4 !important;
+  border-radius: 7px;
+}
+.bi {
+  color: #505dd4;
+}
