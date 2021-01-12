@@ -1,19 +1,14 @@
-### Homework for Week 1-2
+###### Developer: C.T. Bell
 
-## Developer: C.T. Bell
+### Portfolio
 
-# Portfolio
-
-## In this project you will find:
-
-- A Bio Page
-- A Portfolio Page with responsive layout
-- A Contact page with email form
 - Mobile responsive design
 
-### Features in development
+#### Live Site
 
-- Portfolio projects
-- Making the email form work
-- Real bio text
-- More contact optios like social links
+[View Now](https://charlestbell.github.io/C.T.-Bell-Portfolio/)
+
+Screennshot
+
+![Screenshot](/Assets/screenshot.jpg "Screenshot")
+![Screenshot](/Assets/screenshot2.jpg "Screenshot")
