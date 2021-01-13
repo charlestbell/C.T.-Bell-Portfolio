@@ -3,6 +3,7 @@
 ### Portfolio
 
 - Mobile responsive design
+- Built with Bootstrap
 
 #### Live Site
 
