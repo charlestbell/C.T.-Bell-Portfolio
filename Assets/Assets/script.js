@@ -1,9 +1,9 @@
 mainPage = document.querySelector("#mainPage");
 portfolioPage = document.querySelector("#portfolioPage");
-portfoioBtn = document.querySelector("#portfolioBtn");
+btn = document.querySelector("button");
 
-portfoioBtn.addEventListener("click", () => {
-  switch (portfoioBtn.classList.contains("d-none")) {
+portfolioBtn.addEventListener("click", () => {
+  switch (portfolioBtn.classList.contains("d-none")) {
     case true:
       break;
     default:
