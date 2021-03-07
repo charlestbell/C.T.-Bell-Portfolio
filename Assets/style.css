@@ -56,5 +56,7 @@ a:active {
 /* animations */
 .hoverBtn:hover {
   transform: scale(1.04);
+}
+.hoverBtn {
   transition: transform 200ms !important;
 }
