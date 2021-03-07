@@ -52,3 +52,9 @@ a:active {
 .bi {
   color: #505dd4;
 }
+
+/* animations */
+.hoverBtn:hover {
+  transform: scale(1.04);
+  transition: transform 200ms !important;
+}
