@@ -1,14 +1,23 @@
 mainPage = document.querySelector("#mainPage");
 portfolioPage = document.querySelector("#portfolioPage");
-btn = document.querySelector("button");
+resumePage = document.querySelector("#resumePage");
+navigation = document.querySelector("#navigation");
 
-portfolioBtn.addEventListener("click", () => {
-  switch (portfolioBtn.classList.contains("d-none")) {
-    case true:
+navigation.addEventListener("click", (event) => {
+  switch (event.target.id) {
+    case "resumeBtn":
+      console.log("resume button");
+      mainPage.setAttribute("class", "d-none");
+      portfolioPage.setAttribute("class", "d-none");
+      resumePage.classList.remove("d-none");
+      break;
+    case "portfolioBtn":
+      console.log("portfolio button");
+      mainPage.setAttribute("class", "d-none");
+      resumePage.setAttribute("class", "d-none");
+      portfolioPage.classList.remove("d-none");
       break;
     default:
-      mainPage.setAttribute("class", "d-none");
-      portfolioPage.classList.remove("d-none");
       break;
   }
 });
