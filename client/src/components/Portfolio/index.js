@@ -18,7 +18,7 @@ function Portfolio() {
             ></img>
             <div className="card-body">
               <h5 className="card-title">
-                Dabblr - The best tutorials in the world has to offer
+                Dabblr - The best tutorials the world has to offer
               </h5>
               <p className="card-text">
                 A social education platform that aggregates the best tutorials

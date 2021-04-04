@@ -1,4 +1,5 @@
 import React from "react";
+import { Linkedin, Github } from "react-bootstrap-icons";
 
 function Home() {
   return (
@@ -44,15 +45,18 @@ function Home() {
               ></i>{" "}
               (540) 524-0245
             </h5>
-            <div className="socialDiv pb-2 shadow">
-              <div className="d-flex justify-content-between px-2">
+            <div className="socialDiv p-2 shadow">
+              <div className="d-flex justify-content-between">
                 <a
                   href="https://github.com/charlestbell"
                   target="_blank"
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <i className="bi bi-github social hoverBtn d-block"></i>
+                  <Github
+                    className="bi bi-github social hoverBtn d-block"
+                    size={50}
+                  ></Github>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/charles-bell-9b03bb63/"
@@ -60,7 +64,10 @@ function Home() {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <i className="bi bi-linkedin social hoverBtn d-block ml-2"></i>
+                  <Linkedin
+                    className="bi bi-linkedin social hoverBtn d-block ml-2"
+                    size={50}
+                  ></Linkedin>
                 </a>
               </div>
             </div>
