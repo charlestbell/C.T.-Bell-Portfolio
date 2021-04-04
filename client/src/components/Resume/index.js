@@ -27,8 +27,7 @@ function Resume() {
             charlestbell@gmail.com
           </p>
           <a href="https://github.com/charlestbell">GitHub</a>
-          <br></br>
-          <br></br>
+          <span> | </span>
           <a href="https://www.linkedin.com/in/c-t-bell-9b03bb63/">Linkedin</a>
 
           <h1>C.T. Bell</h1>
@@ -79,11 +78,11 @@ function Resume() {
               brand needs. Quickly became the go-to person for technical needs.
             </li>
           </ul>
+          <div className="d-flex justify-content-between">
+            <p className="font-weight-bold">Freelance Film Crew</p>
+            <p>Nov 2020 - April 2021</p>
+          </div>
           <ul>
-            <div className="d-flex justify-content-between">
-              <p className="font-weight-bold">Freelance Film Crew</p>
-              <p>Nov 2020 - April 2021</p>
-            </div>
             <li>
               Worked on content and marketing for countless brands and several
               award winning film projects.
