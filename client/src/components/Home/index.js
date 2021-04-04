@@ -8,7 +8,7 @@ function Home() {
         <div className="row">
           <div className="col">
             <img
-              src="Assets/thumb_ctBell.jpg"
+              src="/thumb_ctBell.jpg"
               className="rounded float-left img-fluid  mr-3 shadow-sm"
               alt="A 30 something smiling white guy"
               width="200px"
@@ -69,9 +69,7 @@ function Home() {
       </div>
 
       <div className="col lg-4 sm-2"></div>
-      
     </div>
-    
   );
 }
 

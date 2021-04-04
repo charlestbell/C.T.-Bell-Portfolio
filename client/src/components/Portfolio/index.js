@@ -12,7 +12,7 @@ function Portfolio() {
         <div className="col p-4 d-flex flex-wrap justify-content-around">
           <div className="card mb-4" style={{ width: "23rem" }}>
             <img
-              src="Assets/dabblr.jpg"
+              src="/dabblr.jpg"
               className="card-img-top"
               alt="ctyFaktz"
             ></img>
@@ -48,7 +48,7 @@ function Portfolio() {
 
           <div className="card mb-4" style={{ width: "23rem" }}>
             <img
-              src="Assets/ctyFaktz.jpg"
+              src="/ctyFaktz.jpg"
               className="card-img-top"
               alt="ctyFaktz"
             ></img>
@@ -82,7 +82,7 @@ function Portfolio() {
 
           <div className="card mb-4" style={{ width: "23rem" }}>
             <img
-              src="Assets/Weather Dashboard.jpg"
+              src="/Weather Dashboard.jpg"
               className="card-img-top"
               alt="Weather Dashboard"
             ></img>
@@ -113,7 +113,7 @@ function Portfolio() {
 
           <div className="card mb-4" style={{ width: "23rem" }}>
             <img
-              src="Assets/Day Scheduler.jpg"
+              src="/Day Scheduler.jpg"
               className="card-img-top"
               alt="Day Scheduler"
             ></img>
