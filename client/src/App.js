@@ -9,7 +9,7 @@ import Resume from "./components/Resume";
 // <Router basename={process.env.PUBLIC_URL + "/"}>
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <main className="container mb-3">
           {/* Navigation */}
