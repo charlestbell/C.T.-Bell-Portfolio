@@ -1,15 +1,15 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import { HashRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-
+// <Router basename={process.env.PUBLIC_URL + "/"}>
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL + "/"}>
+    <Router>
       <div>
         <main className="container mb-3">
           {/* Navigation */}
