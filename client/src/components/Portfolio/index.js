@@ -11,11 +11,7 @@ function Portfolio() {
       <div className="row">
         <div className="col p-4 d-flex flex-wrap justify-content-around">
           <div className="card mb-4" style={{ width: "23rem" }}>
-            <img
-              src="/dabblr.jpg"
-              className="card-img-top"
-              alt="ctyFaktz"
-            ></img>
+            <img src="dabblr.jpg" className="card-img-top" alt="ctyFaktz"></img>
             <div className="card-body">
               <h5 className="card-title">
                 Dabblr - The best tutorials the world has to offer
