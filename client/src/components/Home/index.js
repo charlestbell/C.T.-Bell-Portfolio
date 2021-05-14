@@ -1,6 +1,8 @@
 import React from "react";
 import { Linkedin, Github } from "react-bootstrap-icons";
 
+import portrait from "../../images/thumb_ctBell.jpg";
+
 function Home() {
   return (
     <div id="mainPage" className="">
@@ -9,7 +11,7 @@ function Home() {
         <div className="row">
           <div className="col">
             <img
-              src="/thumb_ctBell.jpg"
+              src={portrait}
               className="rounded float-left img-fluid  mr-3 shadow-sm"
               alt="A 30 something smiling white guy"
               width="200px"
