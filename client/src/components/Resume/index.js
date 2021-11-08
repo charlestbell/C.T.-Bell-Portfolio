@@ -1,6 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+const getUrl = () => {
+  const currentUrl = window.location.href;
+  return currentUrl;
+};
 
 function Resume() {
+  const buildUrl = () => {
+    const currentUrl = getUrl();
+    const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf("#/resume"));
+    const downloadUrl = baseUrl + "/CTBell-Resume.pdf";
+    return downloadUrl;
+  };
+
   return (
     <div className="contentContainer p-3 shadow">
       <div className="row">
@@ -8,11 +21,7 @@ function Resume() {
           <div className="row">
             <div className="col">
               <div className="d-inline-block hoverBtn">
-                <a
-                  className="font-weight-bold"
-                  href="https://charlestbell.github.io/C.T.-Bell-Portfolio/Assets/CTBell-Resume.pdf"
-                  download
-                >
+                <a className="font-weight-bold" href={buildUrl()} download>
                   Download Resume
                 </a>
               </div>
