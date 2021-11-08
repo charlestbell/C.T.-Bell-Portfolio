@@ -1,5 +1,11 @@
 import React from "react";
 
+import dabblr from "../../images/dabblr.jpg";
+import ctyFaktz from "../../images/ctyFaktz.jpg";
+import weatherDashboard from "../../images/Weather Dashboard.jpg";
+import dayScheduler from "../../images/Day Scheduler.jpg";
+import characterTavern from "../../images/Character Tavern.jpg";
+
 function Portfolio() {
   return (
     <div className="contentContainer shadow">
@@ -11,7 +17,42 @@ function Portfolio() {
       <div className="row">
         <div className="col p-4 d-flex flex-wrap justify-content-around">
           <div className="card mb-4" style={{ width: "23rem" }}>
-            <img src="dabblr.jpg" className="card-img-top" alt="ctyFaktz"></img>
+            <img
+              src={characterTavern}
+              className="card-img-top"
+              alt="ctyFaktz"
+            ></img>
+            <div className="card-body">
+              <h5 className="card-title">
+                Character Tavern - Interactive DND Character Creator
+              </h5>
+              <p className="card-text">
+                Styled after rpg games from the 80s and 90s. Character Creator
+                makes creating a DND character easy, intuitive and fun!
+              </p>
+            </div>
+
+            <div className="card-body">
+              <a
+                href="https://character-creator-tavern.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-link"
+              >
+                Live Site
+              </a>
+              <a
+                href="https://github.com/Hammonds526/CharacterCreator"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-link"
+              >
+                Repo
+              </a>
+            </div>
+          </div>
+          <div className="card mb-4" style={{ width: "23rem" }}>
+            <img src={dabblr} className="card-img-top" alt="ctyFaktz"></img>
             <div className="card-body">
               <h5 className="card-title">
                 Dabblr - The best tutorials the world has to offer
@@ -43,11 +84,7 @@ function Portfolio() {
           </div>
 
           <div className="card mb-4" style={{ width: "23rem" }}>
-            <img
-              src="/ctyFaktz.jpg"
-              className="card-img-top"
-              alt="ctyFaktz"
-            ></img>
+            <img src={ctyFaktz} className="card-img-top" alt="ctyFaktz"></img>
             <div className="card-body">
               <h5 className="card-title">ctyFaktz - City Research made fun!</h5>
               <p className="card-text">
@@ -78,7 +115,7 @@ function Portfolio() {
 
           <div className="card mb-4" style={{ width: "23rem" }}>
             <img
-              src="/Weather Dashboard.jpg"
+              src={weatherDashboard}
               className="card-img-top"
               alt="Weather Dashboard"
             ></img>
@@ -109,7 +146,7 @@ function Portfolio() {
 
           <div className="card mb-4" style={{ width: "23rem" }}>
             <img
-              src="/Day Scheduler.jpg"
+              src={dayScheduler}
               className="card-img-top"
               alt="Day Scheduler"
             ></img>
