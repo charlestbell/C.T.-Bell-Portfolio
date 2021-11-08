@@ -42,19 +42,22 @@ function Resume() {
           <h1>C.T. Bell</h1>
           <h6>SUMMARY</h6>
           <p className="ml-4">
-            Full Stack web developer with a certificate from the UCR Bootcamp. 5
-            years of ecommerce experience and 10 years of video marketing
-            experience, Fluent in Node, Mongo, Express, React, HTML5, CSS and
-            SQL. A life-long learner with a passion for user experience and
-            design. Excellent communicator. Highly creative and able to
-            understand complex systems. Experience with Agile Development and
-            kanban. Known for being adaptable, learning new things quickly and
-            over-delivering.
+            Full Stack web developer with a certificate from the UCR Bootcamp. 1
+            year of JS experience, 5 years of ecommerce experience and 10 years
+            of video marketing experience. Fluent in JS, Node, Mongo, Express,
+            React, React Native, HTML5, CSS and SQL. A life-long learner with a
+            passion for user experience and design. Excellent communicator.
+            Highly creative and able to understand complex systems. Experience
+            with Agile Development, TDD and kanban. Known for being adaptable
+            and learning new things quickly.
           </p>
           <h6>TECHNICAL SKILLS</h6>
           <ul>
-            <li>CODING: Node, Mongo, Express, React, SQL HTML5 and CSS</li>
-            <li>TOOLS: GIT, Heroku, Photoshop </li>
+            <li>
+              CODING: Node, Mongo, Express, React, React Native, SQL, HTML5 and
+              CSS
+            </li>
+            <li>TOOLS: GIT, Heroku, Firebase, Photoshop </li>
           </ul>
           <h6>EXPERIENCE</h6>
           <div className="d-flex justify-content-between">
@@ -69,8 +72,7 @@ function Resume() {
           <ul>
             <li>
               Planned, produced and edited over 300 Youtube across multiple
-              brands, one in particular went from 1k subscribers to well over
-              20k
+              brands, channel went from 1k subscribers to well over 25k
               <br></br>
               <br></br>
             </li>
@@ -103,6 +105,18 @@ function Resume() {
           <div className="d-flex justify-content-between">
             <p>Full Stack Web Development Certificate UCR </p>
             <p className="ml-1">Nov 2020 - April 2021</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p>Udemy Course - Master Git and GitHub - Beginner to Expert</p>
+            <p className="ml-1">May 2021</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p>Testing React with Jest and Testing Library</p>
+            <p className="ml-1">Sep 2021</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p>React Native - The Practical Guide [2021 Edition]</p>
+            <p className="ml-1">Sep 2021</p>
           </div>
         </div>
       </div>
