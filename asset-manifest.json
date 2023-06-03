@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/C.T.-Bell-Portfolio/static/css/main.76a3f1d0.chunk.css",
-    "main.js": "/C.T.-Bell-Portfolio/static/js/main.1e058af0.chunk.js",
-    "main.js.map": "/C.T.-Bell-Portfolio/static/js/main.1e058af0.chunk.js.map",
+    "main.js": "/C.T.-Bell-Portfolio/static/js/main.b40f66c7.chunk.js",
+    "main.js.map": "/C.T.-Bell-Portfolio/static/js/main.b40f66c7.chunk.js.map",
     "runtime-main.js": "/C.T.-Bell-Portfolio/static/js/runtime-main.fae69ce2.js",
     "runtime-main.js.map": "/C.T.-Bell-Portfolio/static/js/runtime-main.fae69ce2.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/C.T.-Bell-Portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.da6e704c.chunk.js": "/C.T.-Bell-Portfolio/static/js/2.da6e704c.chunk.js",
-    "static/js/2.da6e704c.chunk.js.map": "/C.T.-Bell-Portfolio/static/js/2.da6e704c.chunk.js.map",
+    "static/js/2.88e1526a.chunk.js": "/C.T.-Bell-Portfolio/static/js/2.88e1526a.chunk.js",
+    "static/js/2.88e1526a.chunk.js.map": "/C.T.-Bell-Portfolio/static/js/2.88e1526a.chunk.js.map",
     "static/js/3.d3dc72ca.chunk.js": "/C.T.-Bell-Portfolio/static/js/3.d3dc72ca.chunk.js",
     "static/js/3.d3dc72ca.chunk.js.map": "/C.T.-Bell-Portfolio/static/js/3.d3dc72ca.chunk.js.map",
     "index.html": "/C.T.-Bell-Portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/C.T.-Bell-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.76a3f1d0.chunk.css.map": "/C.T.-Bell-Portfolio/static/css/main.76a3f1d0.chunk.css.map",
-    "static/js/2.da6e704c.chunk.js.LICENSE.txt": "/C.T.-Bell-Portfolio/static/js/2.da6e704c.chunk.js.LICENSE.txt",
+    "static/js/2.88e1526a.chunk.js.LICENSE.txt": "/C.T.-Bell-Portfolio/static/js/2.88e1526a.chunk.js.LICENSE.txt",
     "static/media/Character Tavern.22bda14e.jpg": "/C.T.-Bell-Portfolio/static/media/Character Tavern.22bda14e.jpg",
-    "static/media/Day Scheduler.e051b633.jpg": "/C.T.-Bell-Portfolio/static/media/Day Scheduler.e051b633.jpg",
-    "static/media/Weather Dashboard.18a871c3.jpg": "/C.T.-Bell-Portfolio/static/media/Weather Dashboard.18a871c3.jpg",
     "static/media/ctyFaktz.9ecd4a8d.jpg": "/C.T.-Bell-Portfolio/static/media/ctyFaktz.9ecd4a8d.jpg",
     "static/media/dabblr.3b040936.jpg": "/C.T.-Bell-Portfolio/static/media/dabblr.3b040936.jpg",
+    "static/media/marksmanJournal.a51ba04c.jpg": "/C.T.-Bell-Portfolio/static/media/marksmanJournal.a51ba04c.jpg",
+    "static/media/ramK9Training.6b2e1af1.jpg": "/C.T.-Bell-Portfolio/static/media/ramK9Training.6b2e1af1.jpg",
     "static/media/thumb_ctBell.0f3c10ec.jpg": "/C.T.-Bell-Portfolio/static/media/thumb_ctBell.0f3c10ec.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fae69ce2.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.da6e704c.chunk.js",
+    "static/js/2.88e1526a.chunk.js",
     "static/css/main.76a3f1d0.chunk.css",
-    "static/js/main.1e058af0.chunk.js"
+    "static/js/main.b40f66c7.chunk.js"
   ]
 }
