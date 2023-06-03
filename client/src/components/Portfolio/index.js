@@ -2,8 +2,8 @@ import React from "react";
 
 import dabblr from "../../images/dabblr.jpg";
 import ctyFaktz from "../../images/ctyFaktz.jpg";
-import weatherDashboard from "../../images/Weather Dashboard.jpg";
-import dayScheduler from "../../images/Day Scheduler.jpg";
+import marksmanJournal from "../../images/marksmanJournal.jpg";
+import ramK9Training from "../../images/ramK9Training.jpg";
 import characterTavern from "../../images/Character Tavern.jpg";
 
 function Portfolio() {
@@ -16,6 +16,85 @@ function Portfolio() {
       </div>
       <div className="row">
         <div className="col p-4 d-flex flex-wrap justify-content-around">
+          {/* Marksman Journal */}
+          <div className="card mb-4" style={{ width: "23rem" }}>
+            <img
+              src={marksmanJournal}
+              className="card-img-top"
+              alt="ctyFaktz"
+            ></img>
+            <div className="card-body">
+              <h5 className="card-title">
+                Marksman Journal - iOs and Android Shooting Sports Tracker
+              </h5>
+              <p className="card-text">
+                Perfect for competitive shooters that train PRS, 3P, 3 Gun, Archery, and beyond -- Anything that is benefited by training logs. Log your training, share it with your coach or training partner, and enter future training ideas for your time at the range or dry fire session. Features separate training history and gear load-outs for each sport you compete in.
+              </p>
+            </div>
+            <div className="mb-4 mx-4">
+              <a
+                href="https://apps.apple.com/us/app/marksman-journal/id1613606007"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-link"
+              >
+                iOS
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.sharpsmountain.marksman_journal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-link"
+              >
+                Android
+              </a>
+
+            </div>
+          </div>
+          {/* Ram K9 Training */}
+          <div className="card mb-4" style={{ width: "23rem" }}>
+            <img
+              src={ramK9Training}
+              className="card-img-top"
+              alt="ctyFaktz"
+            ></img>
+            <div className="card-body">
+              <h5 className="card-title">
+                RAM K9 Training - iOs and Android Working Dog Tracker
+              </h5>
+              <p className="card-text">
+                Track your training sessions over time to identify issues and solve problems.
+
+                Includes a full catalog of training materials from the world's top K9 experts.
+
+                From fundamentals of behavior building to advanced detection and protection drills.
+
+                Each dog gets a gear page, where you can keep track of what gear belongs with which K9. The built-in checkboxes ensure you never leave gear behind.
+
+                Identify issues. Train hard. Accomplish the mission. Ram K9 Training.
+              </p>
+            </div>
+
+            <div className="card-body">
+              <a
+                href="https://apps.apple.com/us/app/ram-k9-training/id1665674045"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-link"
+              >
+                iOS
+              </a>
+              <a
+                href="https://apps.apple.com/us/app/ram-k9-training/id1665674045"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-link"
+              >
+                Android
+              </a>
+
+            </div>
+          </div>
           <div className="card mb-4" style={{ width: "23rem" }}>
             <img
               src={characterTavern}
@@ -113,66 +192,6 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="card mb-4" style={{ width: "23rem" }}>
-            <img
-              src={weatherDashboard}
-              className="card-img-top"
-              alt="Weather Dashboard"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Beautiful Weather Dashboard</h5>
-              <p className="card-text">5 Day weather</p>
-            </div>
-
-            <div className="card-body">
-              <a
-                href="https://charlestbell.github.io/Weather-Dashboard/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card-link"
-              >
-                Live Site
-              </a>
-              <a
-                href="https://github.com/charlestbell/Weather-Dashboard"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card-link"
-              >
-                Repo
-              </a>
-            </div>
-          </div>
-
-          <div className="card mb-4" style={{ width: "23rem" }}>
-            <img
-              src={dayScheduler}
-              className="card-img-top"
-              alt="Day Scheduler"
-            ></img>
-            <div className="card-body">
-              <h5 className="card-title">Day Scheduler</h5>
-              <p className="card-text">Every hour accounted for.</p>
-            </div>
-            <div className="card-body">
-              <a
-                href="https://charlestbell.github.io/Day-Scheduler/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card-link"
-              >
-                Live Site
-              </a>
-              <a
-                href="https://github.com/charlestbell/Day-Scheduler"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card-link"
-              >
-                Repo
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>

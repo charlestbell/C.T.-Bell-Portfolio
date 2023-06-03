@@ -33,7 +33,7 @@ function App() {
             </div>
           </div>
         </main>
-        <p className="text-center white-text">© 2021 C.T. Bell</p>
+        <p className="text-center white-text">© {/\d{4}/.exec(Date())[0]} C.T. Bell</p>
       </div>
     </Router>
   );

@@ -42,14 +42,7 @@ function Resume() {
           <h1>C.T. Bell</h1>
           <h6>SUMMARY</h6>
           <p className="ml-4">
-            Full Stack web developer with a certificate from the UCR Bootcamp. 1
-            year of JS experience, 5 years of ecommerce experience and 10 years
-            of video marketing experience. Fluent in JS, Node, Mongo, Express,
-            React, React Native, HTML5, CSS and SQL. A life-long learner with a
-            passion for user experience and design. Excellent communicator.
-            Highly creative and able to understand complex systems. Experience
-            with Agile Development, TDD and kanban. Known for being adaptable
-            and learning new things quickly.
+            Highly skilled Full Stack Mobile and Web React Developer with a certificate from the UCR Bootcamp. Offering a strong foundation in web development and a comprehensive skill set acquired over 3 years of JavaScript, Web, and Mobile experience, 6 years of ecommerce expertise, and 11 years of content marketing proficiency. Passionate about enhancing user experience and implementing compelling design elements. Exceptional communication skills and a proven track record of effectively collaborating with cross-functional teams. Well-versed in Agile Development methodologies, Test-Driven Development (TDD), and Kanban practices. Recognized for adaptability and consistently delivering successful outcomes on intricate projects.
           </p>
           <h6>TECHNICAL SKILLS</h6>
           <ul>
@@ -57,12 +50,12 @@ function Resume() {
               CODING: Node, Mongo, Express, React, React Native, SQL, HTML5 and
               CSS
             </li>
-            <li>TOOLS: GIT, Heroku, Firebase, Photoshop </li>
+            <li>TOOLS:  GIT, Heroku, Firebase, Cosmos DB, Google Cloud Functions, Photoshop </li>
           </ul>
           <h6>EXPERIENCE</h6>
           <div className="d-flex justify-content-between">
-            <p>Web Admin/Marketer/Content Creator - Employee </p>
-            <p>2016-2021</p>
+            <p>Developer/Content Creator - Employee </p>
+            <p>2016-2023</p>
           </div>
           <div className="d-flex justify-content-between">
             <p className="font-weight-bold">Blue Ridge Overland Gear </p>
@@ -71,8 +64,7 @@ function Resume() {
 
           <ul>
             <li>
-              Planned, produced and edited over 300 Youtube across multiple
-              brands, channel went from 1k subscribers to well over 25k
+              In the last 2 years I developed a mobile app from the ground up as a solo developer.
               <br></br>
               <br></br>
             </li>
@@ -86,7 +78,7 @@ function Resume() {
             <li>
               Helped facilitate a successful website replatforming. Worked on
               database transfer, content audit and implementation for various
-              brand needs. Quickly became the go-to person for technical needs.
+              brand needs.
             </li>
           </ul>
           <div className="d-flex justify-content-between">
