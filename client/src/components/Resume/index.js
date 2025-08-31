@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const getUrl = () => {
   const currentUrl = window.location.href;
@@ -9,8 +9,8 @@ const getUrl = () => {
 function Resume() {
   const buildUrl = () => {
     const currentUrl = getUrl();
-    const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf("#/resume"));
-    const downloadUrl = baseUrl + "/CTBell-Resume.pdf";
+    const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf('#/resume'));
+    const downloadUrl = baseUrl + '/CTBell-Resume.pdf';
     return downloadUrl;
   };
 
@@ -21,7 +21,7 @@ function Resume() {
           <div className="row">
             <div className="col">
               <div className="d-inline-block hoverBtn">
-                <a className="font-weight-bold" href={buildUrl()} download>
+                <a className="fw-bold" href={buildUrl()} download>
                   Download Resume
                 </a>
               </div>
@@ -41,8 +41,19 @@ function Resume() {
 
           <h1>C.T. Bell</h1>
           <h6>SUMMARY</h6>
-          <p className="ml-4">
-            Highly skilled Full Stack Mobile and Web React Developer with a certificate from the UCR Bootcamp. Offering a strong foundation in web development and a comprehensive skill set acquired over 3 years of JavaScript, Web, and Mobile experience, 6 years of ecommerce expertise, and 11 years of content marketing proficiency. Passionate about enhancing user experience and implementing compelling design elements. Exceptional communication skills and a proven track record of effectively collaborating with cross-functional teams. Well-versed in Agile Development methodologies, Test-Driven Development (TDD), and Kanban practices. Recognized for adaptability and consistently delivering successful outcomes on intricate projects.
+          <p className="ms-4">
+            Highly skilled Full Stack Mobile and Web React Developer with a
+            certificate from the UCR Bootcamp. Offering a strong foundation in
+            web development and a comprehensive skill set acquired over 3 years
+            of JavaScript, Web, and Mobile experience, 6 years of ecommerce
+            expertise, and 11 years of content marketing proficiency. Passionate
+            about enhancing user experience and implementing compelling design
+            elements. Exceptional communication skills and a proven track record
+            of effectively collaborating with cross-functional teams.
+            Well-versed in Agile Development methodologies, Test-Driven
+            Development (TDD), and Kanban practices. Recognized for adaptability
+            and consistently delivering successful outcomes on intricate
+            projects.
           </p>
           <h6>TECHNICAL SKILLS</h6>
           <ul>
@@ -50,7 +61,10 @@ function Resume() {
               CODING: Node, Mongo, Express, React, React Native, SQL, HTML5 and
               CSS
             </li>
-            <li>TOOLS:  GIT, Heroku, Firebase, Cosmos DB, Google Cloud Functions, Photoshop </li>
+            <li>
+              TOOLS: GIT, Heroku, Firebase, Cosmos DB, Google Cloud Functions,
+              Photoshop{' '}
+            </li>
           </ul>
           <h6>EXPERIENCE</h6>
           <div className="d-flex justify-content-between">
@@ -58,13 +72,14 @@ function Resume() {
             <p>2016-2023</p>
           </div>
           <div className="d-flex justify-content-between">
-            <p className="font-weight-bold">Blue Ridge Overland Gear </p>
+            <p className="fw-bold">Blue Ridge Overland Gear </p>
             <p>Lynchburg, VA March 2016 - Present</p>
           </div>
 
           <ul>
             <li>
-              In the last 2 years I developed a mobile app from the ground up as a solo developer.
+              In the last 2 years I developed a mobile app from the ground up as
+              a solo developer.
               <br></br>
               <br></br>
             </li>
@@ -82,7 +97,7 @@ function Resume() {
             </li>
           </ul>
           <div className="d-flex justify-content-between">
-            <p className="font-weight-bold">Freelance Film Crew</p>
+            <p className="fw-bold">Freelance Film Crew</p>
             <p>Nov 2020 - April 2021</p>
           </div>
           <ul>
@@ -96,19 +111,19 @@ function Resume() {
           <h6>EDUCATION</h6>
           <div className="d-flex justify-content-between">
             <p>Full Stack Web Development Certificate UCR </p>
-            <p className="ml-1">Nov 2020 - April 2021</p>
+            <p className="ms-1">Nov 2020 - April 2021</p>
           </div>
           <div className="d-flex justify-content-between">
             <p>Udemy Course - Master Git and GitHub - Beginner to Expert</p>
-            <p className="ml-1">May 2021</p>
+            <p className="ms-1">May 2021</p>
           </div>
           <div className="d-flex justify-content-between">
             <p>Testing React with Jest and Testing Library</p>
-            <p className="ml-1">Sep 2021</p>
+            <p className="ms-1">Sep 2021</p>
           </div>
           <div className="d-flex justify-content-between">
             <p>React Native - The Practical Guide [2021 Edition]</p>
-            <p className="ml-1">Sep 2021</p>
+            <p className="ms-1">Sep 2021</p>
           </div>
         </div>
       </div>

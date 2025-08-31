@@ -53,6 +53,21 @@ a:active {
   color: #505dd4;
 }
 
+/* Bootstrap 5 container fixes - Bootstrap 4 widths with !important */
+
+/* Override Bootstrap 5's larger breakpoints */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
 /* animations */
 .hoverBtn:hover {
   transform: scale(1.04);

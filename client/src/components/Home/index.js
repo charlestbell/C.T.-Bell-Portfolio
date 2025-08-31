@@ -1,18 +1,18 @@
-import React from "react";
-import { Linkedin, Github } from "react-bootstrap-icons";
+import React from 'react'
+import { Linkedin, Github } from 'react-bootstrap-icons'
 
-import portrait from "../../images/thumb_ctBell.jpg";
+import portrait from '../../images/thumb_ctBell.jpg'
 
 function Home() {
   return (
     <div id="mainPage" className="">
       <div className="contentContainer mb-4 p-5 shadow">
-        <h2 className="ml-1 mb-3 mt-6">About Me</h2>
+        <h2 className="ms-1 mb-3 mt-6">About Me</h2>
         <div className="row">
           <div className="col">
             <img
               src={portrait}
-              className="rounded float-left img-fluid  mr-3 shadow-sm"
+              className="rounded float-start img-fluid  me-3 shadow-sm"
               alt="A 30 something smiling white guy"
               width="200px"
             ></img>
@@ -35,16 +35,16 @@ function Home() {
             <h2 className=" mb-4">Contact</h2>
             <h5 className="text-center mb-3">
               <i
-                className="bi bi-envelope mr-1"
-                style={{ fontSize: "22px" }}
-              ></i>{" "}
+                className="bi bi-envelope me-1"
+                style={{ fontSize: '22px' }}
+              ></i>{' '}
               charlestbell@gmail.com
             </h5>
             <h5 className="text-center mb-3">
               <i
-                className="bi bi-telephone-fill mr-1"
-                style={{ fontSize: "22px" }}
-              ></i>{" "}
+                className="bi bi-telephone-fill me-1"
+                style={{ fontSize: '22px' }}
+              ></i>{' '}
               (540) 524-0245
             </h5>
             <div className="socialDiv p-2 shadow">
@@ -67,7 +67,7 @@ function Home() {
                   className=""
                 >
                   <Linkedin
-                    className="bi bi-linkedin social hoverBtn d-block ml-2"
+                    className="bi bi-linkedin social hoverBtn d-block ms-2"
                     size={50}
                   ></Linkedin>
                 </a>
@@ -76,10 +76,8 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <div className="col lg-4 sm-2"></div>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home
