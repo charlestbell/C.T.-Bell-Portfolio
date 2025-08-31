@@ -1,18 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
 
 const getUrl = () => {
-  const currentUrl = window.location.href;
-  return currentUrl;
-};
+  const currentUrl = window.location.href
+  return currentUrl
+}
 
 function Resume() {
   const buildUrl = () => {
-    const currentUrl = getUrl();
-    const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf('#/resume'));
-    const downloadUrl = baseUrl + '/CTBell-Resume.pdf';
-    return downloadUrl;
-  };
+    const currentUrl = getUrl()
+    const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf('#/resume'))
+    const downloadUrl = baseUrl + '/CTBell-Resume.pdf'
+    return downloadUrl
+  }
 
   return (
     <div className="contentContainer p-3 shadow">
@@ -128,7 +127,7 @@ function Resume() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Resume;
+export default Resume

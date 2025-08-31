@@ -6,12 +6,20 @@ import Nav from './components/Nav'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
+import ThreeViewer from './components/ThreeViewer'
 // <Router basename={process.env.PUBLIC_URL + "/"}>
 function App() {
   return (
     <Router basename="/">
       <div>
         <main className="container mb-3">
+          {/* 3D Viewer */}
+          <div className="row">
+            <div className="col-12 mt-4">
+              <ThreeViewer />
+            </div>
+          </div>
+
           {/* Navigation */}
           <div className="row g-0" id="navigation">
             <Nav />
